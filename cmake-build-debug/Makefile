@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/riple/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Program3
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Prog3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Program3
+# Target rules for targets named Prog3
 
 # Build rule for target.
-Program3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Program3
-.PHONY : Program3
+Prog3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prog3
+.PHONY : Prog3
 
 # fast build rule for target.
-Program3/fast:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/build
-.PHONY : Program3/fast
+Prog3/fast:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/build
+.PHONY : Prog3/fast
 
 Driver.o: Driver.cpp.o
 
@@ -129,7 +129,7 @@ Driver.o: Driver.cpp.o
 
 # target to build an object file
 Driver.cpp.o:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/Driver.cpp.o
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Driver.cpp.o
 .PHONY : Driver.cpp.o
 
 Driver.i: Driver.cpp.i
@@ -138,7 +138,7 @@ Driver.i: Driver.cpp.i
 
 # target to preprocess a source file
 Driver.cpp.i:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/Driver.cpp.i
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Driver.cpp.i
 .PHONY : Driver.cpp.i
 
 Driver.s: Driver.cpp.s
@@ -147,8 +147,35 @@ Driver.s: Driver.cpp.s
 
 # target to generate assembly for a file
 Driver.cpp.s:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/Driver.cpp.s
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Driver.cpp.s
 .PHONY : Driver.cpp.s
+
+Hash.o: Hash.cpp.o
+
+.PHONY : Hash.o
+
+# target to build an object file
+Hash.cpp.o:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Hash.cpp.o
+.PHONY : Hash.cpp.o
+
+Hash.i: Hash.cpp.i
+
+.PHONY : Hash.i
+
+# target to preprocess a source file
+Hash.cpp.i:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Hash.cpp.i
+.PHONY : Hash.cpp.i
+
+Hash.s: Hash.cpp.s
+
+.PHONY : Hash.s
+
+# target to generate assembly for a file
+Hash.cpp.s:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/Hash.cpp.s
+.PHONY : Hash.cpp.s
 
 # Help Target
 help:
@@ -157,11 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Program3"
+	@echo "... Prog3"
 	@echo "... edit_cache"
 	@echo "... Driver.o"
 	@echo "... Driver.i"
 	@echo "... Driver.s"
+	@echo "... Hash.o"
+	@echo "... Hash.i"
+	@echo "... Hash.s"
 .PHONY : help
 
 

@@ -2,6 +2,8 @@
 #include "Hash.h"
 
 int main() {
-    std::cout << "Hello, Test!" << std::endl;
+    Hash temp;
+    temp.hashFunc1("phonebook.txt");
+    //temp.printHashMap();
     return 0;
 }

@@ -59,45 +59,45 @@ RM = /cygdrive/c/Users/riple/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Program3
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Prog3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Program3.dir
+# Target rules for target CMakeFiles/Prog3.dir
 
 # All Build rule for target.
-CMakeFiles/Program3.dir/all:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/depend
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Program3"
-.PHONY : CMakeFiles/Program3.dir/all
+CMakeFiles/Prog3.dir/all:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/depend
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Prog3"
+.PHONY : CMakeFiles/Prog3.dir/all
 
 # Include target in all.
-all: CMakeFiles/Program3.dir/all
+all: CMakeFiles/Prog3.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Program3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Program3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Program3/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Program3.dir/rule
+CMakeFiles/Prog3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Prog3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/riple/Desktop/CSS343/Prog3/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Prog3.dir/rule
 
 # Convenience name for target.
-Program3: CMakeFiles/Program3.dir/rule
+Prog3: CMakeFiles/Prog3.dir/rule
 
-.PHONY : Program3
-
-# clean rule for target.
-CMakeFiles/Program3.dir/clean:
-	$(MAKE) -f CMakeFiles/Program3.dir/build.make CMakeFiles/Program3.dir/clean
-.PHONY : CMakeFiles/Program3.dir/clean
+.PHONY : Prog3
 
 # clean rule for target.
-clean: CMakeFiles/Program3.dir/clean
+CMakeFiles/Prog3.dir/clean:
+	$(MAKE) -f CMakeFiles/Prog3.dir/build.make CMakeFiles/Prog3.dir/clean
+.PHONY : CMakeFiles/Prog3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Prog3.dir/clean
 
 .PHONY : clean
 

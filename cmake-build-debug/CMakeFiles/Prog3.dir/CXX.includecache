@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/riple/Desktop/CSS343/Prog3/Hash.cpp
+Hash.h
+/cygdrive/c/Users/riple/Desktop/CSS343/Prog3/Hash.h
+
+/cygdrive/c/Users/riple/Desktop/CSS343/Prog3/Hash.h
+iostream
+-
+vector
+-
+string
+-
+list
+-
+fstream
+-
+

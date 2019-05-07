@@ -6,10 +6,22 @@
 #define PROGRAM3_HASH_H
 
 #include <iostream>
+#include <vector>
+#include <string>
+#include <list>
+#include <fstream>
+
 using namespace std;
 
 class Hash {
-    
+    public:
+        Hash();
+        void hashFunc1(string);
+        void printHashMap();
+    private:
+    vector<list<string>> hashMap;
+    vector<string> tempStore;
+    void readFile(string);
 };
 
 
