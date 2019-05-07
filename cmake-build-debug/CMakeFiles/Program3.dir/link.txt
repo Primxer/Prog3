@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Program3.dir/Driver.cpp.o  -o Program3.exe -Wl,--out-implib,libProgram3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
