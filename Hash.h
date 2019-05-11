@@ -17,6 +17,7 @@ class Hash {
     public:
         Hash();
         void hashFunc1(string);
+        void hashFunc2(string);
         void printHashMap();
     private:
     vector<list<string>> hashMap;

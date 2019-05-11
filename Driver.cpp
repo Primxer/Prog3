@@ -3,7 +3,8 @@
 
 int main() {
     Hash temp;
-    temp.hashFunc1("phonebook.txt");
+    //temp.hashFunc1("phonebook.txt");
+    temp.hashFunc2("phonebook.txt");
     //temp.printHashMap();
     return 0;
 }
