@@ -10,6 +10,7 @@
 #include <string>
 #include <list>
 #include <fstream>
+#include <map>
 
 using namespace std;
 
@@ -19,6 +20,8 @@ class Hash {
         void hashFunc1(string);
         void hashFunc2(string);
         void printHashMap();
+        void clearHashMap();
+        void hashFunc3(string);
     private:
     vector<list<string>> hashMap;
     vector<string> tempStore;
